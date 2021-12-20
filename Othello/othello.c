@@ -1,11 +1,4 @@
-﻿/*
-
-・コンピューターの次の手の探索にはαβ法を用い、遺伝的アルゴリズムで重みづけした評価関数を利用した。
-・評価関数では、四隅～辺の確定石の数と、その盤面における石配置の自由度で評価値を計算している。
-
-*/
-
-#include<stdio.h>
+﻿#include<stdio.h>
 #include<stdlib.h>
 #include<stdbool.h>
 #include<time.h>
